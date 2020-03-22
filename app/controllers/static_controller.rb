@@ -1,5 +1,5 @@
 class StaticController < ApplicationController
   def home
-    rendder :layout => "application"
+    render :layout => "application"
   end
 end
